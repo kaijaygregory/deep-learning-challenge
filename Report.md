@@ -53,23 +53,21 @@ The model's performance after training for 100 epochs is as follows:
 * Loss: 0.561.
 * Accuracy: 72.61%.
 
-The model achieved an accuracy of approximately 72.61% on the test dataset. While it's a decent accuracy, it might not meet the target threshold of over 75%. Consider further optimizing the model to improve its performance.
+The model achieved an accuracy of approximately 72.61% on the test dataset. While it's a decent accuracy, it does not meet the target threshold of over 75%. 
 
 __What steps did you take in your attempts to increase model performance?__
 
 The steps taken to enhance the model's performance involved a systematic approach. Initially, additional non-beneficial columns ('SPECIAL_CONSIDERATIONS' and 'USE_CASE') were removed from the dataset to streamline the feature set for the model. Subsequently, adjustments were made to the neural network's architecture. The input dimension was modified from 43 to 36 after dropping these columns. In the hidden layers, modifications included reducing the number of units in each layer: the first hidden layer was adjusted to 50 units with ReLU activation, the second to 40 units with tanh activation, the third to 30 units with sigmoid activation, and the fourth to 20 units with ReLU activation. The output layer retained 1 unit with sigmoid activation for binary classification. The changes were carefully designed to fine-tune the model's architecture, aiming to improve its capacity to recognize patterns and optimize predictive performance. Despite the adjustments made to the model's architecture, the accuracy remains around 72.23%. While there was a marginal change in accuracy, it's still below the 75% threshold. Further optimization or exploration of different model architectures or hyperparameters may be considered to achieve the target performance.
-
-
-
-__Summary:__ 
-
-The deep learning model developed for the classification problem of predicting success in Alphabet Soup's funding achieved an accuracy of approximately 72.23% after extensive adjustments to its architecture. Despite these efforts, the model fell short of the target accuracy threshold of 75%. The model underwent various modifications, including feature selection, altering the neural network architecture by adjusting layers, units, and activation functions, aiming to enhance predictive capability. However, these alterations yielded only marginal improvements.
 
 ![Removig Additional Columns](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Removing%20Additional%20Columns.png)
 
 ![Adjusting Architecture](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Adjusting%20Architecture.png)
 
 ![Updated Accuracy](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Updated%20Accuracy.png)
+
+__Summary:__ 
+
+The deep learning model developed for the classification problem of predicting success in Alphabet Soup's funding achieved an accuracy of approximately 72.23% after extensive adjustments to its architecture. Despite these efforts, the model fell short of the target accuracy threshold of 75%. The model underwent various modifications, including feature selection, altering the neural network architecture by adjusting layers, units, and activation functions, aiming to enhance predictive capability. However, these alterations yielded only marginal improvements.
 
 A different approach to address this classification problem could involve utilizing an ensemble learning technique, specifically a Random Forest or Gradient Boosting model. Ensemble methods combine predictions from multiple models to improve accuracy and robustness. In the case of Random Forest, it builds numerous decision trees and aggregates their outputs, making it less prone to overfitting. Gradient Boosting, on the other hand, builds trees sequentially, learning from the errors of the previous trees, and can be optimized for better performance.
 
