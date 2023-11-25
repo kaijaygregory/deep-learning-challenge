@@ -35,10 +35,10 @@ __How many neurons, layers, and activation functions did you select for your neu
 
 __The model comprises:__
 
-Input layer: 43 input features.
-First hidden layer: 80 neurons with ReLU activation.
-Second hidden layer: 30 neurons with ReLU activation.
-Output layer: 1 neuron with sigmoid activation for binary classification.
+* Input layer: 43 input features.
+* First hidden layer: 80 neurons with ReLU activation.
+* Second hidden layer: 30 neurons with ReLU activation.
+* Output layer: 1 neuron with sigmoid activation for binary classification.
 
 __Reasoning for the Model's Architecture:__
 
@@ -50,9 +50,8 @@ __Were you able to achieve the target model performance?__
 
 The model's performance after training for 100 epochs is as follows:
 
-Loss: 0.561
-
-Accuracy: 72.61%
+*Loss: 0.561
+*Accuracy: 72.61%
 
 The model achieved an accuracy of approximately 72.61% on the test dataset. While it's a decent accuracy, it might not meet the target threshold of over 75%. Consider further optimizing the model to improve its performance.
 
