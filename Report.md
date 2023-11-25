@@ -25,8 +25,6 @@ All columns except "IS_SUCCESSFUL" are features for the model. These columns pro
 8. __INCOME_AMT:__ Income classification
 9. __SPECIAL_CONSIDERATIONS:__ Special considerations for application
 10. __ASK_AMT:__ Funding amount requested
-11. __IS_SUCCESSFUL:__ Money utilization effectiveness indicator
-
 
 __What variable(s) should be removed from the input data because they are neither targets nor features?__
 The "EIN" and "NAME" columns are removed, as they are non-beneficial identification columns for predicting success.
