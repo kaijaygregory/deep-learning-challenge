@@ -15,17 +15,17 @@ The target variable is "IS_SUCCESSFUL". This column represents whether the fundi
 __What variable(s) are the features for your model?__
 
 All columns except "IS_SUCCESSFUL" are features for the model. These columns provide various metadata about the organizations:
--__EIN and NAME:__  Identification columns
--__APPLICATION_TYPE:__  Alphabet Soup application type
--__AFFILIATION:__ Affiliated sector of industry
--__CLASSIFICATION:__ Government organization classification
--__USE_CASE:__ Use case for funding
--__ORGANIZATION:__ Organization type
--__STATUS:__ Active status
--__INCOME_AMT:__ Income classification
--__SPECIAL_CONSIDERATIONS:__ Special considerations for application
--__ASK_AMT:__ Funding amount requested
--__IS_SUCCESSFUL:__ Money utilization effectiveness indicator
+1. __EIN and NAME:__  Identification columns
+2. __APPLICATION_TYPE:__  Alphabet Soup application type
+3. __AFFILIATION:__ Affiliated sector of industry
+4. __CLASSIFICATION:__ Government organization classification
+5. __USE_CASE:__ Use case for funding
+6. __ORGANIZATION:__ Organization type
+7. __STATUS:__ Active status
+8. __INCOME_AMT:__ Income classification
+9. __SPECIAL_CONSIDERATIONS:__ Special considerations for application
+10. __ASK_AMT:__ Funding amount requested
+11. __IS_SUCCESSFUL:__ Money utilization effectiveness indicator
 
 
 __What variable(s) should be removed from the input data because they are neither targets nor features?__
