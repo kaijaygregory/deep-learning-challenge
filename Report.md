@@ -42,7 +42,7 @@ __The model comprises:__
 
 __Reasoning for the Model's Architecture:__
 
-The choice of 80 neurons in the first hidden layer and 30 neurons in the second hidden layer might have been based on the complexity of the dataset and experimentation.
+The choice of 80 neurons in the first hidden layer and 30 neurons in the second hidden layer are based on the complexity of the dataset and experimentation.
 ReLU activation is commonly used for hidden layers to introduce non-linearity, and sigmoid activation in the output layer is appropriate for binary classification tasks.
 
 __Were you able to achieve the target model performance?__
@@ -50,8 +50,8 @@ __Were you able to achieve the target model performance?__
 
 The model's performance after training for 100 epochs is as follows:
 
-*Loss: 0.561
-*Accuracy: 72.61%
+*Loss: 0.561.
+*Accuracy: 72.61%.
 
 The model achieved an accuracy of approximately 72.61% on the test dataset. While it's a decent accuracy, it might not meet the target threshold of over 75%. Consider further optimizing the model to improve its performance.
 
