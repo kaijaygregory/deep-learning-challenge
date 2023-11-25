@@ -50,8 +50,8 @@ __Were you able to achieve the target model performance?__
 
 The model's performance after training for 100 epochs is as follows:
 
-*Loss: 0.561.
-*Accuracy: 72.61%.
+* Loss: 0.561.
+* Accuracy: 72.61%.
 
 The model achieved an accuracy of approximately 72.61% on the test dataset. While it's a decent accuracy, it might not meet the target threshold of over 75%. Consider further optimizing the model to improve its performance.
 
