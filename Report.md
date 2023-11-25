@@ -68,6 +68,12 @@ __Summary:__
 
 The deep learning model developed for the classification problem of predicting success in Alphabet Soup's funding achieved an accuracy of approximately 72.23% after extensive adjustments to its architecture. Despite these efforts, the model fell short of the target accuracy threshold of 75%. The model underwent various modifications, including feature selection, altering the neural network architecture by adjusting layers, units, and activation functions, aiming to enhance predictive capability. However, these alterations yielded only marginal improvements.
 
+![Removig Additional Columns](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Removing%20Additional%20Columns.png)
+
+![Adjusting Architecture](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Adjusting%20Architecture.png)
+
+[Updated Accuracy](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Updated%20Accuracy.png)
+
 A different approach to address this classification problem could involve utilizing an ensemble learning technique, specifically a Random Forest or Gradient Boosting model. Ensemble methods combine predictions from multiple models to improve accuracy and robustness. In the case of Random Forest, it builds numerous decision trees and aggregates their outputs, making it less prone to overfitting. Gradient Boosting, on the other hand, builds trees sequentially, learning from the errors of the previous trees, and can be optimized for better performance.
 
 Ensemble methods often perform well in scenarios where single models struggle, such as when dealing with noisy or complex datasets. Incorporating an ensemble approach like Random Forest or Gradient Boosting could potentially improve classification accuracy by leveraging the strengths of multiple models, thereby enhancing the prediction of successful funding outcomes for Alphabet Soup.
