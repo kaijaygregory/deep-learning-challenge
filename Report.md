@@ -72,7 +72,7 @@ The deep learning model developed for the classification problem of predicting s
 
 ![Adjusting Architecture](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Adjusting%20Architecture.png)
 
-[Updated Accuracy](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Updated%20Accuracy.png)
+![Updated Accuracy](https://github.com/kaijaygregory/deep-learning-challenge/blob/main/Images/Updated%20Accuracy.png)
 
 A different approach to address this classification problem could involve utilizing an ensemble learning technique, specifically a Random Forest or Gradient Boosting model. Ensemble methods combine predictions from multiple models to improve accuracy and robustness. In the case of Random Forest, it builds numerous decision trees and aggregates their outputs, making it less prone to overfitting. Gradient Boosting, on the other hand, builds trees sequentially, learning from the errors of the previous trees, and can be optimized for better performance.
 
